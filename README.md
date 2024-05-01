@@ -1,2 +1,2 @@
-# Portfolio
-This is my portfolio.
+# Portfolio to present my technical journey 
+Technologies used - HTML ,CSS ,JS
