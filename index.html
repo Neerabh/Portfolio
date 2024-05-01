@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Portfolio_neerabh</title>
+	<title>Neerabh Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -24,6 +24,9 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+
+
+	
 </head>
 
 <!-- scroll through navbar -->
@@ -57,8 +60,71 @@
 		</div>
 	</nav>
 
-	<!-- making form home page-->
+
+
+
 	<section id="home-section" class="hero">
+		<div class="home-slider  owl-carousel">
+		  <div class="slider-item ">
+			<div class="overlay"></div>
+			<div class="container">
+			  <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+				<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.png);">
+				  <div class="overlay"></div>
+				</div>
+				<div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+				  <div class="text">
+					<span class="subheading"><h4>Hello!</h4></span>
+					<h1 class="mb-4 mt-3">I'm
+					  <span>Neerabh</span></h1>
+  
+					<!-- Element to contain animated typing -->
+<span id="typing-animation" style="color: white; font-size: 24px;"></span>
+
+<script>
+  // Initialize the typing animation
+  const typingAnimationElement = document.getElementById('typing-animation');
+
+  // Create an array of typing text
+  const typingTexts = ['A Student     ',' Web Developer     ',' Photographer     '];
+
+  // Create a function to display the typing animation for a given text
+  function playTypingAnimation(text) {
+    // Loop through each character and add it to the element
+    for (let i = 0; i < text.length; i++) {
+      setTimeout(() => {
+        typingAnimationElement.textContent += text[i];
+      }, i * 140); // Decreased delay to speed up the typing animation
+    }
+
+    // Once the animation is complete, reset the text and start over
+    setTimeout(() => {
+      typingAnimationElement.textContent = '';
+      playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+    }, text.length * 160); // Adjusted delay accordingly  with typing animation
+  }
+
+  // Start the typing animation loop
+  playTypingAnimation(typingTexts[0]);
+</script><br><br>
+					<p>
+						<a href="https://www.linkedin.com/in/neerabh1848" target="_blank" class="btn btn-primary py-3 px-4">Hire Me</a>
+					  <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My Works</a>
+					</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+      <!-- End Hero Section -->
+
+
+
+
+	<!-- making form home page  ( old ) -->
+	<!-- <section id="home-section" class="hero">
 		<div class="home-slider  owl-carousel">
 			<div class="slider-item ">
 				<div class="overlay"></div>
@@ -76,8 +142,9 @@
 								<h1 class="mb-4 mt-3">I'm <span>NEERABH</span></h1>
 								<h2 class="mb-4">A Student</h2>
 
-								<!-- add hire me and my works here for student -->
-								<p><a href="https://www.linkedin.com/in/neerabh1848" class="btn btn-primary py-3 px-4">Hire
+								
+								<p><a href="https://www.linkedin.com/in/neerabh1848"
+										class="btn btn-primary py-3 px-4">Hire
 										me</a><a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
 								</p>
 							</div>
@@ -98,10 +165,11 @@
 						<div class="one-forth d-flex align-items-center ftco-animate"
 							data-scrollax=" properties: { translateY: '70%' }">
 							<div class="text">
-								<!-- introduction of phtotgraphy  ADD LINK OF PHTOGRAPHS -->
+								
 								<span class="subheading">Hello!</span>
 								<h1 class="mb-4 mt-3">I'm a <span>Photographer</span> from India</h1>
-								<p><a href="https://www.linkedin.com/in/neerabh1848" class="btn btn-primary py-3 px-4">Hire
+								<p><a href="https://www.linkedin.com/in/neerabh1848"
+										class="btn btn-primary py-3 px-4">Hire
 										me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My
 										works</a></p>
 							</div>
@@ -112,7 +180,7 @@
 		</div>
 	</section>
 	</div>
-	</section>
+	</section> -->
 	<!-- desktop page end here  -->
 
 	<!--    about me section starting   -->
@@ -144,7 +212,7 @@
 					<div class="counter-wrap ftco-animate d-flex mt-md-3">
 						<div class="text">
 							<p class="mb-4">
-								<span class="number" data-number="3">0</span>
+								<span class="number" data-number="14">0</span>
 								<span>Project complete</span>
 							</p>
 
@@ -166,7 +234,8 @@
 				<div class="col-md-10 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Resume</h1>
 					<h2 class="mb-4">Resume</h2>
-					<p>In the ever-evolving landscape of technology, I am a steadfast explorer, constantly seeking new horizons and pushing boundaries.</p>
+					<p>In the ever-evolving landscape of technology, I am a steadfast explorer, constantly seeking new
+						horizons and pushing boundaries.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -200,7 +269,8 @@
 
 					<!-- resume link here  -->
 
-					<p><a href="images/cv.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary py-4 px-5">Download CV</a></p>
+					<p><a href="images/cv.pdf" target="_blank" rel="noopener noreferrer"
+							class="btn btn-primary py-4 px-5">Download CV</a></p>
 				</div>
 			</div>
 		</div>
@@ -399,23 +469,34 @@
 					<p>Comming Soon...</p>
 				</div>
 			</div>
-			
+
 		</div>
 	</section>
 
-<!-- hire me  -->
 
-<section class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-7 ftco-animate text-center">
-                <h2>I'm <span>Available</span> for Work</h2>
-                <p>Let's team up to create something amazing! Whether you need web development or photography services, I'm here to help bring your ideas to life. Let's chat and make magic happen.</p>
-                <a href="https://www.linkedin.com/in/neerabh1848" class="btn btn-primary py-3 px-5">Hire Me</a>
-            </div>
-        </div>
-    </div>
-</section>
+
+	<!-- hire me  -->
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+		<div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>I'm <span>Available</span> for Work</h2>
+					<p>Let's team up to create something amazing! Whether you need web development or photography
+						services, I'm here to help bring your ideas to life. Let's chat and make magic happen.</p>
+					<button id="gitbtn" class="btn btn-primary py-3 px-5"
+						onclick="gitClick('https://www.linkedin.com/in/neerabh1848')">Hire Me</button>
+
+					<script>
+						function gitClick(url) {
+							window.open(url, '_blank');
+						}
+					</script>
+					</span>
+					</h2>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 	<!-- Contact -->
@@ -431,7 +512,7 @@
 						work together to bring your ideas to life.</p>
 				</div>
 			</div>
-	
+
 			<div class="row mb-5">
 				<div class="col-md text-center">
 					<div class="ftco-footer-widget mb-4">
@@ -449,33 +530,33 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<style>
 		/* Default color of the icons */
 		.ftco-footer-social.list-unstyled li a {
 			color: white;
 			/* Change the default color to white */
 		}
-	
+
 		/* Hover color for GitHub icon */
 		.ftco-footer-social.list-unstyled li:nth-child(1) a:hover {
 			color: darkgrey;
 			/* GitHub blue */
 		}
-	
+
 		/* Hover color for LinkedIn icon */
 		.ftco-footer-social.list-unstyled li:nth-child(2) a:hover {
 			color: #0A66C2;
 			/* LinkedIn blue */
 		}
-	
+
 		/* Hover color for envelope (email) icon */
 		.ftco-footer-social.list-unstyled li:nth-child(3) a:hover {
 			color: #DB4437;
 			/* Google red */
 		}
 	</style>
-	
+
 
 
 	<!-- FOOTER LINK TO CONTACT ADDED HERE  -->
@@ -519,7 +600,7 @@
 	<script src="js/aos.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-	
+
 	<script src="js/main.js"></script>
 
 	<!-- libraries -->
@@ -533,7 +614,7 @@
 			});
 		});
 	</script>
-	
+
 
 </body>
 
